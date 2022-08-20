@@ -2,7 +2,7 @@
   "homepage": "https://lloydkun.github.io/smsn_pokedex",
   "name": "smsn_pokedex",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

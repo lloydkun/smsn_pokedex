@@ -7,13 +7,12 @@ function App() {
 
 
   return (
-    <Router basename="/smsn_pokedex">
+    <Router basename="/">
       <Routes>
         <Route path='/smsn_pokedex' element={<PokemonPage />} />
         <Route path='/smsn_pokedex/:pokemon_name' element={<PokemonPage />} />
       </Routes>
     </Router>
-
   )
 }
 
